@@ -1,0 +1,8 @@
+{
+  "name": "@feeds/web",
+  "version": "1.0.0",
+  "description": "feed website",
+  "engines": {
+    "node": ">=14.13.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "../"
+    },
+    {
+      "name": "website",
+      "path": "../apps/web"
+    },
+    {
+      "name": "rss",
+      "path": "../packages/rss"
+    },
+    {
+      "name": "WeChat",
+      "path": "../packages/wechat"
+    }
+  ],
+  "settings": {}
+}

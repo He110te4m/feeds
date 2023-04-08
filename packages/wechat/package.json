@@ -1,0 +1,8 @@
+{
+  "name": "@feeds/wechat",
+  "version": "1.0.0",
+  "description": "WeChat feed utils",
+  "engines": {
+    "node": ">=14.13.0"
+  }
+}
