@@ -1,7 +1,25 @@
 {
   "name": "@feeds/wechat",
+  "type": "module",
   "version": "1.0.0",
   "description": "WeChat feed utils",
+  "types": "./libs/index.d.ts",
+  "main": "./libs/index.js",
+  "files": [
+    "libs"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "clean:dist": "rimraf libs",
+    "build": "npm run clean:dist && tsup",
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint .",
+    "lint:eslint-fix": "eslint . --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsup": "^6.7.0"
+  },
   "engines": {
     "node": ">=14.13.0"
   }

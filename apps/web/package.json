@@ -2,6 +2,26 @@
   "name": "@feeds/web",
   "version": "1.0.0",
   "description": "feed website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fp-ts": "^2.13.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/compiler-sfc": "^3.2.47",
+    "unplugin-auto-import": "^0.15.2",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.2.1",
+    "vite-plugin-inspect": "^0.7.19",
+    "vite-plugin-pages": "^0.29.0",
+    "vue-tsc": "^1.2.0"
+  },
   "engines": {
     "node": ">=14.13.0"
   }
