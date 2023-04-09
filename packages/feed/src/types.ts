@@ -30,11 +30,16 @@ export interface FeedItem {
   /** the feed article's author */
   author: string
   /** the created time of the feed article */
-  createdAt: Date
+  createdAt: number
+  /** the updated time of the feed article */
+  updatedAt: number
   /** the feed article's categories or tags */
   categories: string[]
   /** the feed article's description */
   description?: string
   /** the feed article's content */
   content?: string
+  /** the feed article's enclosures */
+  enclosures?: any[]
+  media: Record<keyof any, any>
 }
