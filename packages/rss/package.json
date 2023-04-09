@@ -17,10 +17,13 @@
     "lint:eslint-fix": "eslint . --fix"
   },
   "dependencies": {
-    "@feeds/feed": "workspace:^1.0.0"
+    "@feeds/feed": "workspace:^1.0.0",
+    "fast-xml-parser": "^4.1.4",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
-    "tsup": "^6.7.0"
+    "tsup": "^6.7.0",
+    "vitest": "^0.29.8"
   },
   "engines": {
     "node": ">=14.13.0"
