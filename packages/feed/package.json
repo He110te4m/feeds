@@ -1,8 +1,8 @@
 {
-  "name": "@feeds/rss",
+  "name": "@feeds/feed",
   "type": "module",
   "version": "1.0.0",
-  "description": "RSS feed utils",
+  "description": "base feed",
   "types": "./libs/index.d.ts",
   "main": "./libs/index.js",
   "files": [
@@ -17,7 +17,6 @@
     "lint:eslint-fix": "eslint . --fix"
   },
   "dependencies": {
-    "@feeds/feed": "workspace:^1.0.0"
   },
   "devDependencies": {
     "tsup": "^6.7.0"

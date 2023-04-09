@@ -16,7 +16,9 @@
     "lint:eslint": "eslint .",
     "lint:eslint-fix": "eslint . --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@feeds/feed": "workspace:^1.0.0"
+  },
   "devDependencies": {
     "tsup": "^6.7.0"
   },

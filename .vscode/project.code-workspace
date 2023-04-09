@@ -9,6 +9,10 @@
       "path": "../apps/web"
     },
     {
+      "name": "feed",
+      "path": "../packages/feed"
+    },
+    {
       "name": "rss",
       "path": "../packages/rss"
     },
