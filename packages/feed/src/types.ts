@@ -6,17 +6,13 @@ export interface BaseFeedParserOption {
 /** The parsed feed type */
 export interface ParsedFeed {
   /** feed title */
-  title: string
+  title?: string
   /** feed link */
-  link: string
-  /** feed categories */
-  categories: string[]
-  /** feed items */
-  items: FeedItem[]
+  link?: string
   /** feed description */
   description?: string
-  /** feed image */
-  image?: string
+  /** feed items */
+  items?: FeedItem[]
 }
 
 /** the parsed feed item */
@@ -24,22 +20,19 @@ export interface FeedItem {
   /** feed item unique ID */
   id: string
   /** the feed article's title */
-  title: string
+  title?: string
   /** the feed article's link */
-  link: string
+  link?: string
   /** the feed article's author */
-  author: string
+  author?: string
+  /** the hero image of the feed article */
+  image?: string
   /** the created time of the feed article */
-  createdAt: number
+  createdAt?: number
   /** the updated time of the feed article */
-  updatedAt: number
+  updatedAt?: number
   /** the feed article's categories or tags */
-  categories: string[]
+  categories?: string[]
   /** the feed article's description */
   description?: string
-  /** the feed article's content */
-  content?: string
-  /** the feed article's enclosures */
-  enclosures?: any[]
-  media: Record<keyof any, any>
 }

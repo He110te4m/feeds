@@ -3,7 +3,7 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "checkJs": true,
     "allowJs": true,
     "declaration": true,

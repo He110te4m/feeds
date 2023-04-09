@@ -10,11 +10,6 @@ export class BaseFeedParser {
 
   // eslint-disable-next-line unused-imports/no-unused-vars
   protected parseData(options: BaseFeedParserOption): ParsedFeed {
-    return {
-      title: '',
-      link: '',
-      categories: [],
-      items: [],
-    }
+    return {}
   }
 }
